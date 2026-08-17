@@ -1,3 +1,1 @@
-<p style="color:red;">This is red text.</p>
-
-
+<p style="color:blue;">This is blue text.</p>
