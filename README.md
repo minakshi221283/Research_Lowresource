@@ -1,7 +1,10 @@
-The research enhances the capabilities of existing content moderation systems by incorporating four Indo-Aryan languages—Bhojpuri, Maithili, Braj, and Awadhi—along with their code-mixed forms. The dataset consists of code-mixed samples in which these languages are combined with Hindi and English. Due to the linguistic complexity and mixed-language nature of the data, all samples were manually annotated by annotators recruited from the relevant Indo-Aryan language regions.
+> [!NOTE]
+> The repository contains the publicly shareable portion of the dataset.
 
-Following language annotation, the data were labelled as either offensive or non-offensive. The annotation process achieved a Cohen’s kappa score of 0.69, indicating substantial agreement between annotators. The resulting dataset was subsequently used to develop and evaluate content moderation models based on pre-trained language models. In particular, the study trained multilingual models such as XLM-RoBERTa using augmented training data and a weighted focal loss modelling approach.
+> [!IMPORTANT]
+> The complete dataset is not publicly distributed due to applicable data-sharing restrictions.
 
-To support reproducibility, the associated repository provides the portion of the dataset that can be publicly shared, together with the major data-preparation and preprocessing code. The repository also includes the implementation of the data-augmentation techniques used in the study, enabling researchers to reproduce the principal data-processing steps and extend the proposed approach.
+> [!WARNING]
+> The dataset contains offensive-language examples intended for research purposes.
 
 
